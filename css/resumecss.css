@@ -1,0 +1,108 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+  }
+
+/* Header styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff0;
+}
+h1 {
+  font-size: 36px;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+}
+
+/* Section styles */
+section {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.date {
+  font-style: italic;
+}
+
+/* Icon styles */
+i {
+  margin-right: 10px;
+}
+
+.fa {
+  font-size: 24px;
+}
+
+.fab {
+  color: #f48024;
+}
+
+.fas {
+  color: #333;
+}
+
+/* JavaScript styles */
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
